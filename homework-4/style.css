@@ -1,0 +1,146 @@
+.header {
+    color:rgb(51, 59, 61);
+    background-color: rgb(226, 153, 43);
+    margin: 5px;
+    padding: 5px;
+}
+.header-navigation-list{
+    color: rgb(7, 7, 23);
+    background-color: blue;
+    width: 3px;
+}
+.navigation-link{
+    color: rgb(207, 61, 24);
+    background-color: rgb(239, 72, 11);
+}
+.header-navigation{
+    background-color: limegreen;
+}
+.title{
+    font-weight: 900;
+    font-size: 20px;
+}
+.header-text{
+    font-weight: 900;
+    font-size: 20px;
+}
+.first-section{
+font-style: oblique;
+margin: 5px;
+padding: 5px;
+}
+.first-article{
+    background-color: brown;
+    margin: 8px;
+    padding: 20px;
+}
+.first-name-article{
+    border: 5px solid white;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    font-size: larger;
+}
+.first-text-lorem{
+    background-color: rgb(241, 248, 248);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: small;
+}
+.second-text-lorem{
+    background-color: rgb(241, 248, 248);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: small;
+}
+.third-text-lorem{
+    background-color: rgb(241, 248, 248);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: small;
+}
+.second-article{
+    background-color: brown;
+    margin: 10px;
+    padding: 20px;
+}
+.second-name-article{
+    border: 5px solid white;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    font-size: larger;
+}
+.first-text-ipsum{
+    background-color: rgb(241, 248, 248);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: small;
+}
+.second-text-ipsum{
+    background-color: rgb(241, 248, 248);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: small;
+}
+.third-text-ipsum{
+    background-color: rgb(241, 248, 248);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: small;
+}
+.third-article{
+    background-color: brown;
+    margin: 10px;
+    padding: 20px;
+}
+.third-name-article{
+    border: 5px solid white;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    font-size: larger;
+}
+.first-text-dolor{
+    background-color: rgb(241, 248, 248);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: small;
+}
+.second-text-dolor{
+    background-color: rgb(241, 248, 248);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: small;
+}
+.third-text-dolor{
+    background-color: rgb(241, 248, 248);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: small;
+}
+.footer{
+    background-color: brown;
+    margin: 30px 10px 1px 10px;
+}
