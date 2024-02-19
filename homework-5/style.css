@@ -1,0 +1,68 @@
+.body{
+    background-color: #FFFCB0;
+}
+.div{
+    background-color: white;
+    display: inline-block;
+    border: 3px solid black;
+    text-align: center;
+    max-width: 1000px;
+    width: 240px;
+}
+.container{
+    background-color: #B0C6FF;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.model{
+    font-weight: 700px;
+    font-size: 48px;
+    text-align: center;
+    background-color: #B0C6FF;
+    padding-top: 25px;
+}
+.img{
+   
+    display: block;
+    margin: 23px 52px 23px 53px;
+}
+.name{
+    font-weight: bold;
+    font-size: 12px;
+    margin: 10px 87px 15px 86px;
+}
+.description{
+    font-style: left;
+    font-weight: regular;
+    font-size: 12px;
+    line-height: 14px;
+    margin: 11px 19px 10px 17px;
+}
+
+.button{
+    color: white;
+    background-color: #6177EB;
+    width: 160px;
+    height: 40px;
+    margin: 10px 19px 20px 17px;
+    
+}
+
+.about {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.first, .fifth{
+    margin:40px 15px 15px 60px;
+}
+.second,.third, .sixth, .seventh
+{
+    margin:40px 15px 15px 15px;
+}
+
+.fourth, .eighth{
+    margin:40px 0px 15px 15px;
+}
