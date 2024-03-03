@@ -66,7 +66,7 @@ body {
     border: 3px solid black;
     border-radius: 50px 0px 0px 50px;
     padding: 20px 60px;
-    vertical-align: top;
+   
 }
 .header-btn{
     border: 3px solid black;
@@ -177,16 +177,48 @@ padding: 50px 50px 0px 50px;
 }
 
 .cards-btn-1{
-    display: inline-block;
     text-transform: uppercase;
     padding: 20px 30px;
     border-radius: 50px;
+    
 }
 .cards-btn-2{
-    display: inline-block;
     text-transform: uppercase;
     padding: 20px 30px;
     background-color: black;
     color: white;
     border-radius: 50px;
+    
+}
+
+/* */
+
+.footer{
+    background-color: #020016;
+}
+.text-trademark{
+    color: white;
+    font-size: 12px;
+    line-height: 18px;
+    display: inline-block;
+    max-width: 254px;
+    vertical-align: top;
+    margin-top: 100px;
+    margin-right: 200px;
+}
+.footer-navigation{
+    display: inline-block;
+    margin: 100px 150px;
+}
+.footer-navigation-class{
+    display: inline-block;
+    vertical-align: top;
+    
+}
+.footer-item-feature{
+    color: white;
+    font-size: 16px;
+}
+.footer-item{
+    padding: 20px;
 }
