@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-family: "Roboto";
+    font-weight: 400;
+    
+  }
+
+.container{
+    max-width: 1200px;  
+    margin: 0 auto;
+    
+}
+.header{
+    background-color: white;
+}
+
+.navigation{
+    background-color: black;
+    text-align: center;
+}
+.nav-li{
+    display: inline-block;
+    padding: 44px 25px;
+    line-height: 22px;
+}
+
+.features-nav-li{
+    color: white;
+}
+
+.header-text{
+    display: inline-block;
+    vertical-align: top;
+}
+.header-title{
+    font-size: 70px;
+    line-height: 82px;
+    max-width: 500px;
+    margin-top: 70px;
+    padding-bottom: 40px;
+
+}
+.header-title-description{
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 473px;
+    padding-bottom: 40px;
+    
+}
+
+.header-content-img{
+    display: inline-block;
+    margin-top: 70px;
+    position: relative;
+    left: 200px;
+}
+.get-app-strokes{
+    position: relative;
+    top: -200px;
+    display: inline-block;
+    left: -5px;
+ }
+
+.message{
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 50px 0px 0px 50px;
+    padding: 20px 60px;
+    vertical-align: top;
+}
+.header-btn{
+    border: 3px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 0px 50px 50px 00px;
+    padding: 20px 60px;
+    margin-left: -4px;
+}
+/**/
+
+.section-step-1{
+    text-align: center;
+    margin: 50px;
+    background-color: white;
+}
+
+.title-step{
+font-size: 20px;
+text-transform: uppercase;
+}
+.description-step-1{
+font-size: 50px;
+padding: 40px;
+}
+
+/**/
+
+.cash-advance-step{
+    background-color: #FCD0BA;
+}
+.img-cash{
+    display: inline-block;
+    vertical-align: right;
+    margin-top: 90px;
+}
+.cash-text{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 90px;
+}
+.title-cash-advance{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px;
+}
+.description-cash-advance{
+    font-size: 45px;
+    margin: 20px;
+    max-width: 301px;
+}
+.navigation-cash-advance{
+    font-size: 20px;
+    margin: 20px;
+}
+
+.cash-list{
+   margin-bottom: 40px;
+}
+
+/**/
+
+.section-step-2{
+    text-align: center;
+    margin: 80px;
+    background-color: white;
+}
+.step-2{
+    display: inline-block;
+}
+.title-step{
+font-size: 20px;
+text-transform: uppercase;
+}
+.description-step-2{
+font-size: 50px;
+max-width: 710px;
+padding: 50px 50px 0px 50px;
+
+}
+/**/
+
+.empower-card{
+    background-color: #CCD3E7;
+}
+.img-cards{
+    display: inline-block;
+    vertical-align: right;
+    margin-top: 90px;
+}
+.cards-text{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 90px;
+}
+.title-cards-features{
+    font-size: 45px;
+    margin: 20px;
+}
+.description-cards-features{
+    font-size: 20px;
+    margin: 20px;
+    max-width: 380px;
+}
+.navigation-cards-features{
+    font-size: 20px;
+    margin: 20px;
+}
+
+.cards-btn-1{
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 20px 30px;
+    border-radius: 50px;
+}
+.cards-btn-2{
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 20px 30px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
