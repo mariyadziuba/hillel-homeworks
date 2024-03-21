@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-  max-width: 1136px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -128,6 +128,26 @@ body {
   flex-grow: 1;
   flex-basis: 0;
 }
-.table-descr{
-  justify-content: baseline;
+.table__footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 21px;
+  gap: 10px;
+}
+.table__footer-img{
+  position: relative;
+  margin: -8px;
+}
+.table__footer-link{
+  color: #18181b;
+}
+.table__titles{
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  padding-bottom: 26px;
+}
+.mover-title{
+color: #71717A;
 }
