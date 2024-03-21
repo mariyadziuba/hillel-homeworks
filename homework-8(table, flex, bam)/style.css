@@ -151,3 +151,6 @@ body {
 .mover-title{
 color: #71717A;
 }
+.title-btn{
+  opacity: 0;
+}
