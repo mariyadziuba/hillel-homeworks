@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+
+body {
+  font-family: "Lexend";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1136px;
+  margin: 0 auto;
+}
+
+.button {
+  padding: 9px 17px;
+  background-color: #4cfdc7;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.button_small-fz {
+  font-size: 12px;
+}
+
+.button_stroke {
+  background-color: transparent;
+  border: 1px solid #18181b;
+}
+
+/* navigation */
+
+.navigation {
+  display: flex;
+  padding-top: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__nav {
+  margin-bottom: 130px;
+}
+
+.navigation__aside {
+  display: flex;
+  align-items: center;
+  column-gap: 32px;
+}
+
+.navigation__list {
+  display: flex;
+  column-gap: 32px;
+}
+
+.navigation__link {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+
+.navigation__name {
+  color: #18181b;
+}
+
+/* header-content */
+
+.header-content {
+  display: flex;
+}
+
+.header-content__aside {
+  margin-right: 132px;
+  padding-top: 32px;
+  max-width: 660px;
+}
+
+.header-content__title {
+  font-size: 71px;
+  line-height: 90px;
+  letter-spacing: 1px;
+  margin-bottom: 34px;
+}
+
+.header-content__text {
+  margin-bottom: 30px;
+  line-height: 30px;
+  font-size: 20px;
+  max-width: 460px;
+  letter-spacing: 0.1px;
+  color: #27272a;
+}
+
+.header-content__buttons-group {
+  display: flex;
+  column-gap: 15px;
+}
+
+/* table*/
+
+.table__title{
+  text-align: center;
+}
+.table__btn{
+  padding: 10px 17px;
+  background-color: #9AFD4C;
+  color: #18181b;
+  border-radius: 4px;
+}
+
+.table__row-wrapper{
+  display: flex;
+  border-bottom: 1px solid #F4F4F5;
+  border-top: 1px solid #F4F4F5;;
+  padding: 23px;
+  align-items: center;
+}
+.table__colomn{
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.table__img-wrapper{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.table__img-wrapper, .table__second-column, .table__third-column, .table__fouth-column{
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.table-descr{
+  justify-content: baseline;
+}
