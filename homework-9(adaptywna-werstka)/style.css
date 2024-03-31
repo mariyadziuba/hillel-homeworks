@@ -126,7 +126,7 @@
 }
 .main__input-form{
     background-color:#574B63;
-    padding-right: 100px;
+    padding-right: 200px;
     padding-bottom: 10px;
     border-bottom: 1px #F5F5F5 solid;
     margin-bottom: 10px;
@@ -197,5 +197,16 @@
     }
     .header__phone-number{
         display: none;
+    }
+}
+@media screen and (max-width: 440px){
+    .main__order-question{
+    padding: 0px 35px;
+    }
+    .main__order-feedback{
+        padding: 0px 35px;
+    }
+    .main__input-form{
+        padding-right: 90px;
     }
 }
