@@ -209,4 +209,12 @@
     .main__input-form{
         padding-right: 90px;
     }
+    .header__nav-list {
+        flex-direction: column;
+    }
+    .header__btn{
+        padding: 23px 40px;
+        font-size: 25px;
+    }
+    
 }
