@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.body{
+    font-family: "Inter";
+}
+
+/*header*/
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header__navigation{
+    background-color: black;
+}
+
+.header__wrapper{
+    column-gap: 225px;
+    color: white;
+    padding: 30px;
+    display: flex;
+    column-gap: 270px;
+    align-items: center;
+}
+.header__nav-list{
+    display: flex;
+    gap: 30px;
+}
+
+.header__info{
+    background-color: #CBCBCB;
+}
+.head-info{
+    flex-direction: column;
+    padding-top: 71px;
+}
+.header__info-img{
+    object-fit: cover;
+    margin-bottom: 25px;
+}
+.link_colour, .header__phone-number{
+    color: #717171;
+    font-size: 23px;
+}
+.header__text{
+    font-size: 64px;
+    color: #490E84;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.header__btn{
+    background-color: #490E84;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    padding: 22px 117px;
+    border-radius: 30px;
+}
+/*main*/
+
+/* main menu part*/
+
+.main__menu-title{
+    text-align: center;
+    color: #717171;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.main__iphone-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+}
+.main__iphone-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+.silver-phone, .purple-name, .gold-name, .black-name{
+    font-weight: bold;
+    font-size: 20px;
+}
+/* main order part*/
+
+.main__order-menu{
+    display: flex;
+    align-items: center;
+    background-color: #574B63;
+    margin-top: 134px;
+}
+.main__order-form{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    
+}
+.main__order-img{
+    object-fit: cover;
+}
+
+.main__order-question{
+    font-size: 32px;
+    color: white;
+    margin-bottom: 72px;
+    font-weight: bold;
+    margin-bottom: 72px;
+}
+.main__input-form{
+    background-color:#574B63;
+    padding-right: 250px;
+    padding-bottom: 10px;
+    border-bottom: 1px #F5F5F5 solid;
+    margin-bottom: 10px;
+    color: white;
+}
+.main__order-btn{
+    background-color: white;
+    color: #490E84;
+    padding: 16px 81px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.main__order-feedback{
+    font-size: 14px;
+    color: white;
+    opacity: 0.5;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+/*footer*/
+.footer{
+    background-color: black;
+    color: white;
+}
+.footer__wrapper{
+    display: flex;
+    align-items: center;
+    gap: 220px;
+    padding: 40px;
+}
+
+.footer_link, .footer__contact{
+    color: #717171;
+    font-size: 24px;
+}
