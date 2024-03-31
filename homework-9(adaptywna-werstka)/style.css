@@ -9,6 +9,7 @@
 .container{
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0px 10px;
 }
 .header__navigation{
     background-color: black;
@@ -19,7 +20,7 @@
     color: white;
     padding: 30px;
     display: flex;
-    column-gap: 270px;
+    justify-content: space-between;
     align-items: center;
 }
 .header__nav-list{
@@ -32,9 +33,12 @@
 }
 .head-info{
     flex-direction: column;
+    align-items: center;
     padding-top: 71px;
 }
-.header__info-img{
+.header__img{
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     margin-bottom: 25px;
 }
@@ -97,11 +101,20 @@
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    flex-basis: 0;
     align-items: center;
     
 }
-.main__order-img{
+.main__input-check{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.main__order-pic{
     object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 .main__order-question{
@@ -113,7 +126,7 @@
 }
 .main__input-form{
     background-color:#574B63;
-    padding-right: 250px;
+    padding-right: 100px;
     padding-bottom: 10px;
     border-bottom: 1px #F5F5F5 solid;
     margin-bottom: 10px;
@@ -142,11 +155,47 @@
 .footer__wrapper{
     display: flex;
     align-items: center;
-    gap: 220px;
+    justify-content: space-between;
     padding: 40px;
 }
 
 .footer_link, .footer__contact{
     color: #717171;
     font-size: 24px;
+}
+
+/* adaptyw */
+
+@media screen and (max-width: 1080px){
+    .header__wrapper{
+        flex-direction: column;
+        row-gap: 30px;
+        justify-content: center;
+    }
+    .main__order-menu{
+        flex-direction: column;
+    }
+    .main__order-form{
+        align-self: stretch;
+        padding: 100px 0px;
+    }
+
+   .footer__wrapper{
+        flex-direction: column;
+        row-gap: 30px;
+   }
+}
+
+@media screen and (max-width: 570px){
+    .header__text{
+        font-size: 50px;
+    }
+    .link_colour {
+        font-size: 30px;
+        font-weight: bold;
+        
+    }
+    .header__phone-number{
+        display: none;
+    }
 }

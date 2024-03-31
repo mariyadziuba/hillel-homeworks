@@ -37,10 +37,11 @@
           <div class="header__wrapper head-info">
             <span class="header__text">IPHONE 14 PRO</span>
             <div class="header__info-img">
-              <picture class="header__picture">
-                <source media="(min-width: 937px)" srcset="" />
-                <img src="./img/iphone_14_pro.png" alt="iphone_14_pro" />
-              </picture>
+              <img
+                src="./img/iphone_14_pro.png"
+                alt="iphone"
+                class="header__img"
+              />
             </div>
             <button class="header__btn" type="button">ВЫБРАТЬ</button>
           </div>
@@ -197,24 +198,26 @@
             <div class="main__order-menu">
               <div class="main__order-form">
                 <h5 class="main__order-question">ХОЧЕШЬ IPHONE 14 PRO?</h5>
-                <form action="server000" class="main__input-check">
-                  <input
-                    type="text"
-                    class="main__input-form order_text"
-                    placeholder="Ваше имя"
-                  />
-                </form>
-                <form action="server000" class="main__input-check">
-                  <input
-                    type="text"
-                    placeholder="Номер телефона"
-                    class="main__input-form order_text"
-                  />
-                </form>
-                <span class="main__order-feedback order_text"
-                  >В ближайшее время наш менеджер свяжется с Вами</span
-                >
-                <button class="main__order-btn" type="button">ЗАКАЗАТЬ</button>
+                <div class="main__input-check">
+                  <form action="server000" class="main__input-check">
+                    <input
+                      type="text"
+                      class="main__input-form order_text"
+                      placeholder="Ваше имя"
+                    />
+                    <input
+                      type="text"
+                      placeholder="Номер телефона"
+                      class="main__input-form order_text"
+                    />
+                    <span class="main__order-feedback order_text"
+                      >В ближайшее время наш менеджер свяжется с Вами</span
+                    >
+                    <button class="main__order-btn" type="submit">
+                      ЗАКАЗАТЬ
+                    </button>
+                  </form>
+                </div>
               </div>
               <div class="main__order-img">
                 <img
@@ -231,9 +234,7 @@
     <footer class="footer">
       <div class="footer_container container">
         <div class="footer__wrapper">
-          <a href="#" class="footer_link"
-            >Политика конфиденциальности</a
-          >
+          <a href="#" class="footer_link">Политика конфиденциальности</a>
           <img src="./img/logo.png" alt="logo" class="footer-logo" />
           <span class="footer__contact">+38 050-456-56-56</span>
         </div>
