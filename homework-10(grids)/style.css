@@ -3,7 +3,7 @@
     font-size: 30px;
     font-weight: bold;
     text-align: center;
-    padding-top: 55px;
+    padding: 30px;
 }
 .item1{
     background-color: rgb(8, 8, 136);
@@ -75,7 +75,7 @@
         grid-column-end: 5;
     }
     .item2{
-        grid-row-start: 4;
+        grid-row-start: 5;
         grid-row-end: 11;
         grid-column-start: 1;
         grid-column-end: 1;
@@ -114,49 +114,49 @@
 
 @media screen and (max-width: 800px){
     .grid-items-box{
-        grid-template-rows: repeat(10, 1fr);
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: repeat(15, 1fr);
+        grid-template-columns: 1fr;
     }
     .item1{
         grid-row-start: 1;
         grid-row-end: 2;
         grid-column-start: 1;
-        grid-column-end: 5;
+        grid-column-end: 2;
     }
     .item2{
-        grid-row-start: 4;
-        grid-row-end: 11;
+        grid-row-start: 2;
+        grid-row-end: 4;
         grid-column-start: 1;
-        grid-column-end: 1;
+        grid-column-end: 2;
     }
     .item3{
-        grid-row-start: 2;
-        grid-row-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 8;
         grid-column-start: 1;
-        grid-column-end: 5;
+        grid-column-end: 2;
     }
     .item4{
-        grid-row-start: 5;
-        grid-row-end: 7;
-        grid-column-start: 2;
-        grid-column-end: 5;
+        grid-row-start: 8;
+        grid-row-end: 10;
+        grid-column-start: 1;
+        grid-column-end: 2;
     }
     .item5{
-        grid-row-start: 7;
-        grid-row-end: 9;
-        grid-column-start: 2;
-        grid-column-end: 5;
+        grid-row-start: 10;
+        grid-row-end: 12;
+        grid-column-start: 1;
+        grid-column-end: 2;
     }
     .item6{
-        grid-row-start: 9;
-        grid-row-end: 11;
-        grid-column-start: 2;
-        grid-column-end: 4;
+        grid-row-start: 12;
+        grid-row-end: 14;
+        grid-column-start: 1;
+        grid-column-end: 2;
     }
     .item7{
-        grid-row-start: 9;
-        grid-row-end: 11;
-        grid-column-start: 4;
-        grid-column-end: 5;
+        grid-row-start: 14;
+        grid-row-end: 16;
+        grid-column-start: 1;
+        grid-column-end: 2;
     }
 }
